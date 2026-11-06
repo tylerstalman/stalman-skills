@@ -47,6 +47,10 @@ Size 88 is the Riverside reference setting, not a portable pixel size. Do not bl
 - Seek at least a couple of angle changes per clip, including when one person speaks. Show participants and natural listening reactions where appropriate; keep switches restrained and motivated. Use reactions from the actual moment, not unrelated moments.
 - In stacked layouts put Tyler at the top, David at the bottom, and a guest in the middle. Check framing, participant placement, and opening text in the actual vertical composition.
 
+### Animation timing and reading time
+
+Time graphic entrances, spec reveals, and exits to the relevant spoken reference or editorial beat. Keep motion brief and purposeful, then hold the graphic still long enough to comfortably read every item at phone size. Count reading time after the entrance and final text reveal finish, before the exit begins; animation time is not reading time. Judge the hold from the actual copy and density rather than a fixed duration. If it feels rushed, extend the hold within the relevant passage or simplify/stagger the information. Check the playable timeline across cuts and review the entrance, readable hold, and exit in playback before calling the timing verified.
+
 ## Riverside audio and pacing
 
 - For new clips, enable all five Riverside AI tools: Remove Pauses, Remove Filler Words, Magic Audio for every speaker, Smart Mute, and Smart Layouts with cutaways. These are part of the default workflow; do not leave them for Tyler to turn on manually. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
