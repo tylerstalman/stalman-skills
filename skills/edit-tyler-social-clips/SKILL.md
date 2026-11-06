@@ -59,9 +59,11 @@ Check the opening establishes the subject cleanly; the edited story has a cohere
 
 ## Review delivery
 
-For review, provide a guest review link generated with Riverside’s **Share for review** action. A bare editor `/preview` URL is an editing link and is not a suitable review handoff for Tyler. The generated link includes a review token; copy the actual URL rather than constructing a token or reusing a link from another edit. Treat the token as access-bearing and keep it out of the GitHub skill repository and logs intended for sharing.
+Tyler reviews on an iPhone, including an in-app browser. Riverside editor links and token-bearing **Share for review** links are unsuitable as the sole review handoff: the guest page played on desktop Safari but Tyler's iPhone still displayed Riverside's Chrome/Edge requirement on November 6, 2026. Desktop Safari playback is not proof of iPhone or in-app-browser compatibility.
 
-Verify playback in Safari before claiming the review works outside Chrome: a loaded page or video poster alone is insufficient; confirm that playback advances. The Gruber clip's guest review player was verified in Safari on November 6, 2026. Recheck for later reviews rather than assuming all browser/device combinations work. The guest page shows the latest saved edit; it is not a fixed exported revision. If it fails, prepare a review of the rendered export through an available file-sharing service, observing its sharing requirements, and test that resulting player. Do not substitute a raw storage key or editor link and call it a working video review.
+Deliver the latest rendered MP4 through an accessible file/video player outside Riverside, with a direct downloadable file as a fallback when available. Use an authorized connected account and preserve appropriate access; do not publish to social accounts just to obtain a review link. Verify the exact uploaded revision, file readiness, and player. State whether phone playback was actually tested; never claim it from a desktop check. When the edit changes, export and update the review file so the hook and other changes are included. Label reviews by revision to avoid stale approvals.
+
+If Riverside links are included for editing or comments, label them accordingly rather than presenting them as phone-compatible video reviews. Copy actual returned URLs; never construct storage URLs from object keys. Treat review tokens as access-bearing and keep them out of the GitHub skill repository and shared logs.
 
 ## Default captions
 
