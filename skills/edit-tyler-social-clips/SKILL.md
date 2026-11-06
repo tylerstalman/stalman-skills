@@ -65,6 +65,10 @@ Deliver the latest rendered MP4 through an accessible file/video player outside 
 
 If Riverside links are included for editing or comments, label them accordingly rather than presenting them as phone-compatible video reviews. Copy actual returned URLs; never construct storage URLs from object keys. Treat review tokens as access-bearing and keep them out of the GitHub skill repository and shared logs.
 
+### Preview cleanup
+
+Delete temporary review files and hosted preview copies once Tyler has finished reviewing them or they have been superseded and are no longer needed. Keep the current preview while review or publication approval is pending. Track the exact preview files and links created for the task so cleanup removes only those copies; preserve original media, the editable Riverside timeline, final deliverables, and published posts. Use the destination’s normal recoverable deletion when available and verify cleanup. If permanent deletion requires confirmation, request it for the exact preview rather than silently retaining it or deleting unrelated content.
+
 ## Default captions
 
 Tyler chose the Riverside favorite shown in [caption reference](assets/caption-favorite.png) as the default caption style. It shows bold white centered text with a dark shadow, one word in the sample. Riverside reports a custom Montserrat 800, white, word-by-word Shadow/Reveal preset (id `69d328f8bcd9b3e242bb17ad`) that appears consistent; verify it is the pictured favorite in the editor before assuming the match. Preserve the distinct opening hook style above.
