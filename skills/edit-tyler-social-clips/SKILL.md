@@ -99,6 +99,8 @@ Tyler chose the Riverside favorite shown in [caption reference](assets/caption-f
 
 Write from the show's perspective. Generally omit host names; if a host is named, use their first name. Use a guest's full name when naming them. Publishing and reposting require the applicable platform workflow and user authorization.
 
+Never use hashtags in social captions/descriptions. Prefer a natural declarative ending; do not routinely append an engagement question or call for comments. Closing questions are acceptable only very rarely, when specifically warranted or requested. These preferences override generic platform advice to add hashtags or end with a question.
+
 When Tyler asks to get a clip ready and says he will give the publish instruction later, prepare the exact account/platform list, title/captions, visibility choices, cover-frame choices, and final media revision. Check connected accounts, current platform limits, duplicate posts, and required copyright signals. Save a reviewable publishing package and show the exact copy. Do not publish or schedule as a way to stage or test it; wait for his separate instruction. A completed render proves rendering, not that a platform will accept the post. Report any unverified delivery or account state honestly.
 
 ## Maintaining this skill
