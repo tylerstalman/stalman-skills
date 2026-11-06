@@ -30,7 +30,7 @@ git -C "$HOME/Documents/Codex/Shared Skills" pull --ff-only
 
 Edit the skill in this checkout, review the diff, commit, and push. On the other Mac run the same pull command. The installed link follows the updated checkout. Compare `git -C "$HOME/Documents/Codex/Shared Skills" rev-parse HEAD` on both Macs to verify the same commit. If either checkout has uncommitted changes or divergent commits, reconcile them before updating; do not overwrite them or force-push.
 
-GitHub provides version sharing, not automatic background synchronization. No services or schedules are installed. Local links do not automatically install the skill in Codex cloud or ChatGPT.
+Codex automations configured on November 6, 2026 reconcile user-authored skill changes at 9 a.m. and 9 p.m. America/Edmonton and report on Mondays at 9:15 a.m. Routine sync notifications are muted except failed runs. Local run records and pending destinations live in `.sync-state/` (excluded from Git). Runs depend on the scheduler and available access; offline or unsupported destinations remain pending. No system background services are installed. Local links do not automatically install skills on another computer, in Codex cloud, or in ChatGPT; each destination must be accessible and independently installed and verified.
 
 ## Recovery
 
