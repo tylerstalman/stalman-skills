@@ -57,6 +57,12 @@ Size 88 is the Riverside reference setting, not a portable pixel size. Do not bl
 
 Check the opening establishes the subject cleanly; the edited story has a coherent beginning, middle, end and payoff; and the hook accurately describes the clip and follows the saved styling. Check camera variety, natural reactions, vertical framing, participant positions, audio continuity and sync. Report checks that could not actually be completed; inspecting settings alone is not a full audiovisual review.
 
+## Review delivery
+
+For review, provide a guest review link generated with Riverside’s **Share for review** action. A bare editor `/preview` URL is an editing link and is not a suitable review handoff for Tyler. The generated link includes a review token; copy the actual URL rather than constructing a token or reusing a link from another edit. Treat the token as access-bearing and keep it out of the GitHub skill repository and logs intended for sharing.
+
+Verify playback in Safari before claiming the review works outside Chrome: a loaded page or video poster alone is insufficient; confirm that playback advances. The Gruber clip's guest review player was verified in Safari on November 6, 2026. Recheck for later reviews rather than assuming all browser/device combinations work. The guest page shows the latest saved edit; it is not a fixed exported revision. If it fails, prepare a review of the rendered export through an available file-sharing service, observing its sharing requirements, and test that resulting player. Do not substitute a raw storage key or editor link and call it a working video review.
+
 ## Default captions
 
 Tyler chose the Riverside favorite shown in [caption reference](assets/caption-favorite.png) as the default caption style. It shows bold white centered text with a dark shadow, one word in the sample. Riverside reports a custom Montserrat 800, white, word-by-word Shadow/Reveal preset (id `69d328f8bcd9b3e242bb17ad`) that appears consistent; verify it is the pictured favorite in the editor before assuming the match. Preserve the distinct opening hook style above.
