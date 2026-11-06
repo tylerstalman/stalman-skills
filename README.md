@@ -1,6 +1,6 @@
 # Stalman Skills
 
-Shared personal Codex skills. This private GitHub repository is the authoritative version for both Macs.
+Shared personal Codex skills. This public GitHub repository is the authoritative version for both Macs and can be shared for installation on other computers.
 
 ## Included skill
 
