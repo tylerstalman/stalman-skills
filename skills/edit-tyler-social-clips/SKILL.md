@@ -59,11 +59,7 @@ Check the opening establishes the subject cleanly; the edited story has a cohere
 
 ## Review delivery
 
-Tyler reviews on an iPhone, including an in-app browser. Riverside editor links and token-bearing **Share for review** links are unsuitable as the sole review handoff: the guest page played on desktop Safari but Tyler's iPhone still displayed Riverside's Chrome/Edge requirement on November 6, 2026. Desktop Safari playback is not proof of iPhone or in-app-browser compatibility.
-
-Deliver the latest rendered MP4 through an accessible file/video player outside Riverside, with a direct downloadable file as a fallback when available. Use an authorized connected account and preserve appropriate access; do not publish to social accounts just to obtain a review link. Verify the exact uploaded revision, file readiness, and player. State whether phone playback was actually tested; never claim it from a desktop check. When the edit changes, export and update the review file so the hook and other changes are included. Label reviews by revision to avoid stale approvals.
-
-If Riverside links are included for editing or comments, label them accordingly rather than presenting them as phone-compatible video reviews. Copy actual returned URLs; never construct storage URLs from object keys. Treat review tokens as access-bearing and keep them out of the GitHub skill repository and shared logs.
+Tell Tyler to review clips in the **Riverside app** by default. Identify the studio, project, and exact edit title so he can find the current version. Do not use editor/guest-review browser URLs as the default review handoff, and do not create external review uploads, links, or downloadable preview files unless Tyler explicitly requests them. Keep the review on the same existing edit so revisions remain easy to find. Rendering for an authorized final export or publication is separate from creating an extra review preview.
 
 ### Preview cleanup
 
