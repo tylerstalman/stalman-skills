@@ -49,7 +49,8 @@ Size 88 is the Riverside reference setting, not a portable pixel size. Do not bl
 
 ## Riverside audio and pacing
 
-- Enable Magic Audio for every speaker, silence removal, and filler-word removal. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
+- For new clips, enable all five Riverside AI tools: Remove Pauses, Remove Filler Words, Magic Audio for every speaker, Smart Mute, and Smart Layouts with cutaways. These are part of the default workflow; do not leave them for Tyler to turn on manually. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
+- When revising an existing edit, inspect its latest state and preserve Tyler’s manual AI settings, cleanup, and layouts. Do not rerun cleanup or regenerate Smart Layouts merely to satisfy the defaults when Tyler has already configured them.
 - Review cleanup for clipped speech, unnatural joins, lost meaning, unwanted fragments, continuity, and synchronization.
 
 ## Review
