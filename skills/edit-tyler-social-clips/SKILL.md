@@ -51,6 +51,19 @@ Size 88 is the Riverside reference setting, not a portable pixel size. Do not bl
 
 Time graphic entrances, spec reveals, and exits to the relevant spoken reference or editorial beat. Keep motion brief and purposeful, then hold the graphic still long enough to comfortably read every item at phone size. Count reading time after the entrance and final text reveal finish, before the exit begins; animation time is not reading time. Judge the hold from the actual copy and density rather than a fixed duration. If it feels rushed, extend the hold within the relevant passage or simplify/stagger the information. Check the playable timeline across cuts and review the entrance, readable hold, and exit in playback before calling the timing verified.
 
+### Camera cutouts and basic specs
+
+For future camera discussions in these short-form clips, use Tyler's paper-cutout treatment when introducing the camera:
+
+- Confirm the exact model from the recording before choosing an image or specs; distinguish similar models and generations rather than guessing from a partial name.
+- Find a real product photo, preferably from the manufacturer. Present the camera as a clean cutout with a slightly irregular white border and soft shadow on warm, subtly textured paper, matching Tyler's Final Cut style. Preserve the product's actual appearance; do not invent hardware or markings.
+- Keep the card short and easy to scan: **model name, megapixels, lens focal length, weight, and release year**. Verify facts against manufacturer documentation or another authoritative source. Label 35mm-equivalent focal lengths clearly, include aperture when useful, and state whether weight includes the battery/card. Use the original model's release year, not a later variant's or firmware date.
+- Use a brief, restrained camera entrance (such as a small zoom), a model-name reveal, and a light staggered spec reveal, followed by a readable still hold and simple exit. Follow the animation timing rule above; exact effects and durations are choices for the current passage, not fixed settings.
+- Layer the insert over the relevant dialogue in the same edit, preserving the audio and overall clip length. Keep the hook, camera, specs, and dialogue captions from competing. Use dark caption text on the light paper for that interval while preserving the normal caption style elsewhere.
+- Verify actual saved placement, duration, layer order, and the return to the speakers. Check phone-size legibility and playback through the entrance, hold, and exit; settings alone do not prove the animation is timed correctly. Keep the camera image and spec text independently editable where supported.
+
+Use the current editing tools and guide for upload, animation, and time-axis contracts. Do not reuse old media IDs, clip IDs, source timestamps, revisions, or camera-specific facts from an earlier episode.
+
 ## Riverside audio and pacing
 
 - For new clips, enable all five Riverside AI tools: Remove Pauses, Remove Filler Words, Magic Audio for every speaker, Smart Mute, and Smart Layouts with cutaways. These are part of the default workflow; do not leave them for Tyler to turn on manually. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
