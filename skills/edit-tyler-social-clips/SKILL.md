@@ -67,6 +67,8 @@ For future camera discussions in these short-form clips, use Tyler's paper-cutou
 
 Use the current editing tools and guide for upload, animation, and time-axis contracts. Do not reuse old media IDs, clip IDs, source timestamps, revisions, or camera-specific facts from an earlier episode.
 
+For the reusable production recipe and final delivery checks, read [Camera-card production](references/camera-card-production.md) when making a camera insert.
+
 ## Riverside audio and pacing
 
 - For new clips, enable all five Riverside AI tools: Remove Pauses, Remove Filler Words, Magic Audio for every speaker, Smart Mute, and Smart Layouts with cutaways. These are part of the default workflow; do not leave them for Tyler to turn on manually. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
@@ -96,6 +98,8 @@ Tyler chose the Riverside favorite shown in [caption reference](assets/caption-f
 ## Social descriptions
 
 Write from the show's perspective. Generally omit host names; if a host is named, use their first name. Use a guest's full name when naming them. Publishing and reposting require the applicable platform workflow and user authorization.
+
+When Tyler asks to get a clip ready and says he will give the publish instruction later, prepare the exact account/platform list, title/captions, visibility choices, cover-frame choices, and final media revision. Check connected accounts, current platform limits, duplicate posts, and required copyright signals. Save a reviewable publishing package and show the exact copy. Do not publish or schedule as a way to stage or test it; wait for his separate instruction. A completed render proves rendering, not that a platform will accept the post. Report any unverified delivery or account state honestly.
 
 ## Maintaining this skill
 
