@@ -52,6 +52,10 @@ Size 88 is the Riverside reference setting, not a portable pixel size. Do not bl
 
 Time graphic entrances, spec reveals, and exits to the relevant spoken reference or editorial beat. Keep motion brief and purposeful, then hold the graphic still long enough to comfortably read every item at phone size. Count reading time after the entrance and final text reveal finish, before the exit begins; animation time is not reading time. Judge the hold from the actual copy and density rather than a fixed duration. If it feels rushed, extend the hold within the relevant passage or simplify/stagger the information. Check the playable timeline across cuts and review the entrance, readable hold, and exit in playback before calling the timing verified.
 
+### Screenshots
+
+Place genuine screenshots on a plain **off-white canvas** (use the working brand value `#F4F0E6` unless Tyler supplies a newer value). The screenshot itself is the insert: do not add titles, labels, credits, specs, or other text outside the screenshot. Preserve text already within the original screenshot. Dialogue captions may overlap the screenshot; keep their approved style and do not shrink the screenshot just to reserve a caption band. Use the same external composition and rendered-video delivery workflow when needed for reliable Riverside playback. This screenshot treatment is distinct from the green paper camera-cutout cards below.
+
 ### Camera cutouts and basic specs
 
 For future camera discussions in these short-form clips, use Tyler's paper-cutout treatment when introducing the camera:
