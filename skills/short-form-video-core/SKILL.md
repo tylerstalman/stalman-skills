@@ -16,6 +16,15 @@ Select the destination channel before loading a brand profile or generating grap
 - Prioritize the first five seconds as the opportunity to earn continued watching. Cut to relevant available visuals as early as the spoken context supports, ideally within those opening seconds; use the earliest meaningful mention rather than waiting for a later explanation or comparison. Do not force unrelated imagery or sacrifice comprehension and readable viewing time. Review the opening separately for an earlier useful visual opportunity.
 - Review the final composite for stray frames, exposed edges, sync, clipped speech, readable text, and correct handoffs. Check the actual current render; separate sampled visual checks, full visual playback, audible review, and app/platform verification. Report incomplete checks accurately.
 
+## Coherence before compression
+
+Clear, complete communication is the highest editorial priority. Brevity, pace and visual rhythm follow it. Keep a longer clip or a more continuous source passage whenever shortening would break the explanation; a target duration is not permission to lose meaning.
+
+- Before calling an edit ready, exporting a final version or scheduling it, read the entire assembled dialogue in playback order as a first-time viewer. Review the actual current revision, not just the source transcript or selected highlights. Then check the spoken joins in playback; readable sentences alone do not prove natural audio.
+- At each jump, check that the setup, subject and comparison are still explicit: what do “this,” “that,” “they,” “it,” “the same” and “doesn’t match” refer to? Preserve the reasoning between a problem, its example, its cause and its proposed solution, including necessary qualifications. A later reaction or conclusion must still have the explanation it responds to.
+- Revisit the omitted source around any unclear join. Restore the speaker’s actual bridge or use a longer continuous passage instead of expecting the audience to infer missing context. A hook, caption, product image or graphic cannot repair missing spoken reasoning or justify a stronger claim.
+- After any script change, repeat the beginning-to-end coherence review and recheck speech-linked visuals. If a platform’s duration limit cannot accommodate a complete explanation, choose a smaller self-contained point or a suitable longer format; do not make an incoherent cut to fit.
+
 ## Scope and learning
 
 Store general lessons here once. Store branding, hook/caption style, accounts, narrative defaults and recurring editorial direction in the destination channel skill. Keep source-specific directions and temporary experiments in that video's local job file. Explicit current directions override that channel's defaults; they do not silently change the other channel. General authenticity requirements still apply.

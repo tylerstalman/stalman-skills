@@ -25,7 +25,7 @@ Use this complete workflow for short-form podcast editing requests, including wh
 ## Opening and narrative
 
 - Make the subject clear in the first few spoken seconds. Trim opening filler such as “so,” “like,” or “um” without clipping meaningful words.
-- Aim for one to two minutes; material for a complete clip may span five minutes or more. Both are estimates, not rigid limits.
+- Aim for one to two minutes when the point fits clearly; material for a complete clip may span five minutes or more. These are estimates, not rigid limits. The shared core's coherence-before-compression review takes priority: retain setup and explanatory bridges, use a longer or more continuous passage when needed, and review the whole assembled script before release.
 - Actively remove tangents, irrelevant detours, and repetition. Preserve a coherent beginning, middle, end and real takeaway, the speakers' intended meaning, necessary qualifications, and natural continuity.
 - Seek opportunities for both speakers to contribute and respond when that improves the clip. Single-speaker clips are acceptable; don't force a second speaker.
 
