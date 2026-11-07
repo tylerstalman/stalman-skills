@@ -35,6 +35,8 @@ Every clip opens with one short sentence of three to seven words about that clip
 
 Use **Staatliches**, black text on solid white rectangular strips, centered horizontally, with compact line spacing. Preserve the approved copy when adjusting placement/size. Uppercase styling must still preserve meaningful case-sensitive product suffixes. Riverside's Speaker preset is a starting point only; inspect its actual font, colors and box effect. Dialogue captions keep their independent approved style.
 
+Use **six seconds as the starting duration for new opening hooks**, extended from the previous five-second treatment by Tyler's November 7 correction. When applying that correction to an existing in-scope hook, measure its current effective duration and add one second; do not assume every existing hook was five seconds. Do not repeatedly add another second on later revisions. Keep it longer if the actual copy needs more reading time. Verify the entire playable hold, including shot changes, caption clearance and competing inserts, while preserving approved typography and copy.
+
 Tyler's confirmed November 7 correction supersedes the earlier high/top placement and size-88 reference:
 
 - **Single shot:** default to a lower position below the face, around the chest/microphone. Keep eyes, face and dialogue captions readable. Use [the preferred lower single-shot reference](assets/preferred-hook-lower-single-shot.jpg) for placement/composition.
@@ -65,6 +67,8 @@ The early multicam and recurring speaker-emphasis layouts are confirmed from Tyl
 
 Time graphic entrances, spec reveals, and exits to the relevant spoken reference or editorial beat. Keep motion brief and purposeful, then hold the graphic still long enough to comfortably read every item at phone size. Count reading time after the entrance and final text reveal finish, before the exit begins; animation time is not reading time. Judge the hold from the actual copy and density rather than a fixed duration. If it feels rushed, extend the hold within the relevant passage or simplify/stagger the information. Check the playable timeline across cuts and review the entrance, readable hold, and exit in playback before calling the timing verified.
 
+When chronology is the explanation, consider one evolving timeline rather than disconnected cards. Advance each milestone at the spoken reference, retain earlier milestones for context, and resume the same state after speaker cutaways instead of replaying its entrance. Verify dates and the precise event being dated; distinguish a specific manufacturer's product from a claim about the first product ever. Keep undated developments undated. Recompute word cues after dialogue or automated cleanup changes the playable timing.
+
 ### Screenshots
 
 Place genuine screenshots on a plain **off-white canvas** (use the working brand value `#F4F0E6` unless Tyler supplies a newer value). The screenshot itself is the insert: do not add titles, labels, credits, specs, or other text outside the screenshot. Preserve text already within the original screenshot. Dialogue captions may overlap the screenshot; keep their approved style and do not shrink the screenshot just to reserve a caption band. Use the same external composition and rendered-video delivery workflow when needed for reliable Riverside playback. This screenshot treatment is distinct from the green paper camera-cutout cards below.
@@ -94,6 +98,7 @@ For the reusable production recipe and final delivery checks, read [Camera-card 
 
 - For new clips, enable all five Riverside AI tools: Remove Pauses, Remove Filler Words, Magic Audio for every speaker, Smart Mute, and Smart Layouts with cutaways. These are part of the default workflow; do not leave them for Tyler to turn on manually. Favor stronger cleanup for short form. Exact strength labels and connector values remain to be verified; Tyler approved stronger cleanup without specifying an enum. These choices override different or unresolved full-episode settings.
 - When revising an existing edit, inspect its latest state and preserve Tyler’s manual AI settings, cleanup, and layouts. Do not rerun cleanup or regenerate Smart Layouts merely to satisfy the defaults when Tyler has already configured them.
+- After restoring or adding dialogue, verify that Riverside's automated **Remove Filler Words and Remove Pauses cover the current kept speech**. An old toggle or cuts on the previous selection do not prove that newly restored passages were processed. Run the missing automated pass using the established method/pace, then inspect the resulting cuts and mutes and listen to the affected joins. Preserve other manual settings and layouts. Filler removal follows transcript labels and can miss an audible filler; it is not a semantic judgment. Preserve meaningful uses of “like,” comparisons, qualifications and natural phrasing, and repair any missed or mistaken cleanup after listening.
 - Review cleanup for clipped speech, unnatural joins, lost meaning, unwanted fragments, continuity, and synchronization.
 
 ## Review
