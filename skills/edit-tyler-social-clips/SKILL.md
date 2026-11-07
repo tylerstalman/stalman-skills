@@ -14,6 +14,7 @@ Use this complete workflow for short-form podcast editing requests, including wh
 - Build a detailed, fairly long list of topics. Look at each topic's beginning as a promising entry point because it often gives new audiences context.
 - Prefer interesting moments when a useful ranking method is available. A clear takeaway, surprise, useful advice, distinctive opinion, or engaging exchange are editorial heuristics, not reliable predictions of performance.
 - For additional clips inspect existing clips when possible to avoid repeating selections.
+- When Tyler identifies an episode, confirm each selected edit's source recording belongs to that episode. A shared studio or project is not sufficient because it can contain recordings from other episodes. Use other episodes only when Tyler authorizes a mixed batch.
 
 ## Opening and narrative
 
