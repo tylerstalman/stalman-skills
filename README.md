@@ -18,6 +18,8 @@ python3 "$HOME/Documents/Codex/Shared Skills/scripts/install.py" --retire-legacy
 
 The installer creates `~/.agents/skills/edit-tyler-social-clips` as a link to the checkout. It refuses to overwrite a conflicting installed skill. The flag archives the standalone `video-hook-template`, if present, under `~/.codex/skill-backups/`, outside discovery. Other skills are preserved. Review any additional preferences on the second Mac before retiring a different legacy version.
 
+The installer also maintains a marked video-authenticity section in `~/.codex/AGENTS.md`, preserving other instructions. It prohibits Eye Contact and gaze correction in all Tyler video workflows, including inherited settings, and requires verification before export or posting. Its shared source is [Video authenticity](skills/edit-tyler-social-clips/references/video-authenticity.md). Rerun the installer after pulling updates to refresh these global preferences on each Mac.
+
 Start a new Codex chat and ask it to use `$edit-tyler-social-clips`; verify it identifies this combined skill. A working link verifies files and installation, not fresh-session discovery. Official discovery documentation: https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills
 
 ## Updates and version checks

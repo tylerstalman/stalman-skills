@@ -9,6 +9,8 @@ These confirmed short-form preferences override conflicting full-episode default
 
 Use this complete workflow for short-form podcast editing requests, including when Tyler identifies a specific passage rather than asking for topic discovery. Use the applicable Riverside skills for tool mechanics alongside these editorial preferences. Do not publish or schedule without a separate instruction.
 
+**Eye Contact must always be off.** Never enable eye correction, gaze correction, or an equivalent effect for any participant in any of Tyler's videos. Inspect inherited edits and all track/clip keyframes, disable existing correction, and check the latest render before export or posting. This prohibition overrides preserving an existing manual setting. Follow [Video authenticity](references/video-authenticity.md), including the original-source and existing-publication checks.
+
 ## Topic discovery and selection
 
 - Build a detailed, fairly long list of topics. Look at each topic's beginning as a promising entry point because it often gives new audiences context.
@@ -85,6 +87,8 @@ For the reusable production recipe and final delivery checks, read [Camera-card 
 - Review cleanup for clipped speech, unnatural joins, lost meaning, unwanted fragments, continuity, and synchronization.
 
 ## Review
+
+Verify Eye Contact / eye correction is disabled for every participant throughout the edit, including inherited settings and later keyframes. Check natural eyes and gaze in the latest rendered playback. Do not call an edit ready when that verification is incomplete.
 
 Check the opening establishes the subject cleanly; the edited story has a coherent beginning, middle, end and payoff; and the hook accurately describes the clip and follows the saved styling. Check camera variety, natural reactions, vertical framing, participant positions, audio continuity and sync. Report checks that could not actually be completed; inspecting settings alone is not a full audiovisual review.
 
