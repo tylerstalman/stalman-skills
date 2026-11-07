@@ -100,6 +100,7 @@ For the reusable production recipe and final delivery checks, read [Camera-card 
 - When revising an existing edit, inspect its latest state and preserve Tyler’s manual AI settings, cleanup, and layouts. Do not rerun cleanup or regenerate Smart Layouts merely to satisfy the defaults when Tyler has already configured them.
 - After restoring or adding dialogue, verify that Riverside's automated **Remove Filler Words and Remove Pauses cover the current kept speech**. An old toggle or cuts on the previous selection do not prove that newly restored passages were processed. Run the missing automated pass using the established method/pace, then inspect the resulting cuts and mutes and listen to the affected joins. Preserve other manual settings and layouts. Filler removal follows transcript labels and can miss an audible filler; it is not a semantic judgment. Preserve meaningful uses of “like,” comparisons, qualifications and natural phrasing, and repair any missed or mistaken cleanup after listening.
 - Review cleanup for clipped speech, unnatural joins, lost meaning, unwanted fragments, continuity, and synchronization.
+- During crosstalk, ensure a filler or pause detected on one participant has not produced a global cut through another participant's words. Restore any damaged words and, where needed, mute only the intended participant instead. Recheck inherited mutes on restored dialogue even after an automated pass succeeds.
 
 ## Review
 
