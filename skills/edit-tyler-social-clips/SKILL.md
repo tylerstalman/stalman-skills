@@ -56,6 +56,10 @@ Time graphic entrances, spec reveals, and exits to the relevant spoken reference
 
 Place genuine screenshots on a plain **off-white canvas** (use the working brand value `#F4F0E6` unless Tyler supplies a newer value). The screenshot itself is the insert: do not add titles, labels, credits, specs, or other text outside the screenshot. Preserve text already within the original screenshot. Dialogue captions may overlap the screenshot; keep their approved style and do not shrink the screenshot just to reserve a caption band. Use the same external composition and rendered-video delivery workflow when needed for reliable Riverside playback. This screenshot treatment is distinct from the green paper camera-cutout cards below.
 
+### Visual opportunity check before posting
+
+Before publishing or scheduling any clip, review its actual discussion for clear opportunities to show a relevant screenshot or real product photo. Add visuals that help viewers recognize the specific app, product, feature, or example being discussed; do not force an insert into every clip. Prefer original screenshots and manufacturer photos, verify the exact product/version, and avoid presenting a generic image as the speakers' own work or the specific demo they describe. Time each insert to its spoken reference, allow comfortable viewing time, preserve caption styling, and check the return to speakers for stray frames. Follow the screenshot treatment above and the camera treatment below where applicable. If a useful source cannot be verified, report that gap before posting rather than substituting a guessed visual.
+
 ### Camera cutouts and basic specs
 
 For future camera discussions in these short-form clips, use Tyler's paper-cutout treatment when introducing the camera:
