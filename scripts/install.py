@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Link the shared skill into Codex's personal discovery directory."""
+"""Link the shared clipping skills into Codex's personal discovery directory."""
 import argparse
 from pathlib import Path
 import shutil
@@ -10,10 +10,11 @@ parser.add_argument('--retire-legacy-hook', action='store_true', help='Archive t
 parser.add_argument('--home', type=Path, default=Path.home(), help=argparse.SUPPRESS)
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
-source = root / 'skills' / 'edit-tyler-social-clips'
-target = args.home / '.agents' / 'skills' / source.name
-assert (source / 'SKILL.md').is_file(), 'Missing source skill'
-policy = (source / 'references' / 'video-authenticity.md').read_text().strip()
+skill_names = ('short-form-video-core', 'edit-tyler-social-clips', 'clip-tyler-youtube')
+sources = [root / 'skills' / name for name in skill_names]
+for source in sources:
+    assert (source / 'SKILL.md').is_file(), f'Missing source skill: {source}'
+policy = (root / 'skills' / 'short-form-video-core' / 'references' / 'video-authenticity.md').read_text().strip()
 policy_start = '<!-- stalman-video-authenticity:start -->'
 policy_end = '<!-- stalman-video-authenticity:end -->'
 instructions = args.home / '.codex' / 'AGENTS.md'
@@ -28,10 +29,11 @@ if policy_start in existing_instructions:
 else:
     updated_instructions = existing_instructions.rstrip() + ('\n\n' if existing_instructions.strip() else '') + managed_policy + '\n'
 # Check every conflict before changing anything.
-for candidate in (target, args.home / '.codex' / 'skills' / source.name):
-    if candidate.exists() or candidate.is_symlink():
-        if not (candidate.is_symlink() and candidate.resolve() == source):
-            raise SystemExit(f'Existing skill needs review; preserved without changes: {candidate}')
+for source in sources:
+    for candidate in (args.home / '.agents' / 'skills' / source.name, args.home / '.codex' / 'skills' / source.name):
+        if candidate.exists() or candidate.is_symlink():
+            if not (candidate.is_symlink() and candidate.resolve() == source):
+                raise SystemExit(f'Existing skill needs review; preserved without changes: {candidate}')
 legacy = [args.home / base / 'skills' / 'video-hook-template' for base in ('.agents', '.codex')]
 present = [p for p in legacy if p.exists() or p.is_symlink()]
 if present and not args.retire_legacy_hook:
@@ -43,13 +45,15 @@ if present:
         destination = backup / f'{index}-{item.name}'
         shutil.move(str(item), str(destination))
         print(f'Archived {item} to {destination}')
-target.parent.mkdir(parents=True, exist_ok=True)
-if not target.is_symlink():
-    target.symlink_to(source, target_is_directory=True)
-assert (target / 'SKILL.md').resolve() == (source / 'SKILL.md').resolve()
+for source in sources:
+    target = args.home / '.agents' / 'skills' / source.name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if not target.is_symlink():
+        target.symlink_to(source, target_is_directory=True)
+    assert (target / 'SKILL.md').resolve() == (source / 'SKILL.md').resolve()
+    print(f'Installed {target} -> {source}')
 if updated_instructions != existing_instructions:
     instructions.parent.mkdir(parents=True, exist_ok=True)
     instructions.write_text(updated_instructions)
-print(f'Installed {target} -> {source}')
 print(f'Installed global video authenticity preferences in {instructions}; other instructions preserved.')
-print('Start a new Codex chat and invoke $edit-tyler-social-clips to verify discovery.')
+print('Start a new Codex chat and invoke the appropriate podcast or main-YouTube skill to verify discovery.')

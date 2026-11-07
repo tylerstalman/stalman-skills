@@ -2,9 +2,13 @@
 
 Shared personal Codex skills. This public GitHub repository is the authoritative version for both Macs and can be shared for installation on other computers.
 
-## Included skill
+## Included clipping skills
 
 [`edit-tyler-social-clips`](skills/edit-tyler-social-clips/SKILL.md) combines Tyler's short-form editing workflow, approved Staatliches opening hooks, default caption reference, and review requirements. It has no episode-specific batch instructions and no dependency on the old `video-hook-template` skill. Reference images are included.
+
+[`short-form-video-core`](skills/short-form-video-core/SKILL.md) holds shared story, authenticity, relevant visuals, review and efficient-execution lessons, with no channel brand. [`clip-tyler-youtube`](skills/clip-tyler-youtube/SKILL.md) handles clips from Tyler's main channel through Final Cut or Resolve. Its [separate profile](skills/clip-tyler-youtube/references/brand-profile.json) intentionally leaves unconfirmed visual settings unset; it never inherits podcast branding. The existing local `final-cut-youtube-editing` long-form skill remains intact.
+
+Keep general improvements in the core, recurring channel directions in that channel's skill/profile, and video-specific exceptions in local jobs. Jobs record the shared Git commit and channel-profile version. Sync the repository as one version, not styles or media across channels. Private job data and account IDs stay outside this public repository.
 
 ## Install on either Mac
 
@@ -16,11 +20,11 @@ gh repo clone tylerstalman/stalman-skills "$HOME/Documents/Codex/Shared Skills"
 python3 "$HOME/Documents/Codex/Shared Skills/scripts/install.py" --retire-legacy-hook
 ```
 
-The installer creates `~/.agents/skills/edit-tyler-social-clips` as a link to the checkout. It refuses to overwrite a conflicting installed skill. The flag archives the standalone `video-hook-template`, if present, under `~/.codex/skill-backups/`, outside discovery. Other skills are preserved. Review any additional preferences on the second Mac before retiring a different legacy version.
+The installer links all three clipping skills into `~/.agents/skills` from this checkout and checks all destination conflicts before making changes. Install the bundle together so relative shared-core references resolve. It refuses to overwrite a conflicting installed skill. The flag archives the standalone `video-hook-template`, if present, under `~/.codex/skill-backups/`, outside discovery. Other skills are preserved. Review any additional preferences on the second Mac before retiring a different legacy version.
 
-The installer also maintains a marked video-authenticity section in `~/.codex/AGENTS.md`, preserving other instructions. It prohibits Eye Contact and gaze correction in all Tyler video workflows, including inherited settings, and requires verification before export or posting. It also requires matching product identity to the actual discussion and using the manufacturer's exact short model name. Its shared source is [Video authenticity](skills/edit-tyler-social-clips/references/video-authenticity.md). Rerun the installer after pulling updates to refresh these global preferences on each Mac.
+The installer also maintains a marked video-authenticity section in `~/.codex/AGENTS.md`, preserving other instructions. It prohibits Eye Contact and gaze correction in all Tyler video workflows, including inherited settings, and requires verification before export or posting. It also requires matching product identity to the actual discussion and using the manufacturer's exact short model name. Its shared source is [Video authenticity](skills/short-form-video-core/references/video-authenticity.md). Rerun the installer after pulling updates to refresh these global preferences on each Mac.
 
-Start a new Codex chat and ask it to use `$edit-tyler-social-clips`; verify it identifies this combined skill. A working link verifies files and installation, not fresh-session discovery. Official discovery documentation: https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills
+Start a new Codex chat and invoke `$edit-tyler-social-clips` for Full Stack Creator or `$clip-tyler-youtube` for the main channel. Verify it selects the correct profile and shared core. A working link verifies files and installation, not fresh-session discovery. Official discovery documentation: https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills
 
 ## Updates and version checks
 

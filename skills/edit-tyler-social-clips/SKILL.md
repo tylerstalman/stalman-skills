@@ -5,6 +5,8 @@ description: Create and review Tyler Stalman's short-form podcast clips in River
 
 # Tyler's podcast social clips
 
+This is the **Full Stack Creator podcast** profile. Read [the shared short-form core](../short-form-video-core/SKILL.md) for reusable craft, authenticity and scoped learning. Main-channel YouTube clips use `clip-tyler-youtube`; do not carry this profile's branding, Riverside defaults, participant layouts or publishing accounts into them. Keep general improvements in the shared core and podcast-specific preferences here.
+
 These confirmed short-form preferences override conflicting full-episode defaults for short clips. Keep full-episode and multicam skills intact. Use current Riverside tools and their editing guidance for supported operations, revision handling, and exact transcript selections.
 
 Use this complete workflow for short-form podcast editing requests, including when Tyler identifies a specific passage rather than asking for topic discovery. Use the applicable Riverside skills for tool mechanics alongside these editorial preferences. Do not publish or schedule without a separate instruction.

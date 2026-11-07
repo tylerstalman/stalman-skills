@@ -1,0 +1,26 @@
+{
+  "channelId": "tyler-youtube",
+  "profileVersion": 1,
+  "status": "reference-needed",
+  "approvedReference": null,
+  "visual": {
+    "logo": null,
+    "colors": null,
+    "hookTypography": null,
+    "captionTypography": null,
+    "screenshotTreatment": null,
+    "productTreatment": null,
+    "motionCharacter": null,
+    "captionSafeArea": null
+  },
+  "editorial": {
+    "videoBriefOverridesDefaults": true,
+    "singleSpeakerAllowed": true,
+    "preserveRelevantDemonstrationsAndBroll": true,
+    "fixedDurationTarget": null,
+    "hashtags": false,
+    "descriptionEnding": "declarative; questions only rarely or when directed"
+  },
+  "publishing": {"accountIds": null, "defaultSchedule": null},
+  "inheritance": "Shared craft/authenticity only; no Full Stack Creator branding, assets, account settings or Riverside defaults."
+}

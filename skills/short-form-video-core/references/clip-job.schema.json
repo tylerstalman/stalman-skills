@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local short-form clip plan",
+  "description": "Keep completed jobs private/local. Frame ranges are zero-based and end-exclusive; validate end > start against actual media. This is an editorial contract, not an executable Resolve/FCP payload.",
+  "type": "object",
+  "required": ["channel", "profileVersion", "skillCommit", "source", "clips"],
+  "properties": {
+    "channel": {"enum": ["full-stack-creator", "tyler-youtube"]},
+    "profileVersion": {"type": ["string", "integer"]},
+    "skillCommit": {"type": "string", "minLength": 7},
+    "source": {
+      "type": "object",
+      "required": ["identity", "revisionOrHash", "kind", "frameRate", "colorHandling"],
+      "properties": {
+        "identity": {"type": "string", "description": "Exact local master/project or Riverside recording identity"},
+        "revisionOrHash": {"type": "string"},
+        "kind": {"enum": ["finished-master", "editable-project", "riverside-edit"]},
+        "frameRate": {
+          "type": "object", "required": ["numerator", "denominator"],
+          "properties": {"numerator": {"type": "integer", "minimum": 1}, "denominator": {"type": "integer", "minimum": 1}},
+          "additionalProperties": false
+        },
+        "colorHandling": {"type": "string", "description": "Verified source and intended output color/HDR handling, or unresolved"},
+        "transcriptCache": {"type": "string", "description": "Local path plus matching source/revision; do not commit its contents"}
+      }
+    },
+    "videoDirections": {"type": "array", "items": {"type": "string"}},
+    "clips": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "segments", "backend", "brand", "review"],
+        "properties": {
+          "id": {"type": "string"},
+          "backend": {"enum": ["final-cut", "resolve", "riverside", "deterministic-render", "undecided"]},
+          "segments": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object", "required": ["sourceStartFrame", "sourceEndFrameExclusive", "reason"],
+              "properties": {
+                "sourceStartFrame": {"type": "integer", "minimum": 0},
+                "sourceEndFrameExclusive": {"type": "integer", "minimum": 1},
+                "reason": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "brand": {
+            "type": "object", "required": ["channel", "profileVersion", "status"],
+            "properties": {
+              "channel": {"enum": ["full-stack-creator", "tyler-youtube"]},
+              "profileVersion": {"type": ["string", "integer"]},
+              "status": {"enum": ["reference-needed", "resolved"]},
+              "resolvedStyle": {"type": "object", "description": "Only this channel's approved values and current explicit overrides"}
+            }
+          },
+          "inserts": {
+            "type": "array", "items": {
+              "type": "object", "required": ["asset", "spokenTrigger", "sourceEvidence", "outputStartFrame", "outputEndFrameExclusive", "styleChannel"],
+              "properties": {
+                "asset": {"type": "string"}, "spokenTrigger": {"type": "string"}, "sourceEvidence": {"type": "string"},
+                "outputStartFrame": {"type": "integer", "minimum": 0}, "outputEndFrameExclusive": {"type": "integer", "minimum": 1},
+                "styleChannel": {"enum": ["full-stack-creator", "tyler-youtube"]}
+              }
+            }
+          },
+          "overrides": {"type": "array", "items": {"type": "object", "required": ["direction", "scope", "evidence"], "properties": {"direction": {"type": "string"}, "scope": {"const": "this-job"}, "evidence": {"type": "string"}}}},
+          "review": {"type": "object", "description": "Record real coverage separately: natural gaze, image identity, branding, full visuals, audio/sync, short-frame audit, current export. Unknown is not passed."}
+        }
+      }
+    }
+  }
+}
