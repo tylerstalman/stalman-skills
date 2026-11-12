@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Link the shared clipping skills into Codex's personal discovery directory."""
+"""Link the shared clipping skills into each assistant's personal skill directory (Codex and, when present, Claude)."""
 import argparse
 from pathlib import Path
 import shutil
@@ -30,7 +30,7 @@ else:
     updated_instructions = existing_instructions.rstrip() + ('\n\n' if existing_instructions.strip() else '') + managed_policy + '\n'
 # Check every conflict before changing anything.
 for source in sources:
-    for candidate in (args.home / '.agents' / 'skills' / source.name, args.home / '.codex' / 'skills' / source.name):
+    for candidate in (args.home / '.agents' / 'skills' / source.name, args.home / '.codex' / 'skills' / source.name, args.home / '.claude' / 'skills' / source.name):
         if candidate.exists() or candidate.is_symlink():
             if not (candidate.is_symlink() and candidate.resolve() == source):
                 raise SystemExit(f'Existing skill needs review; preserved without changes: {candidate}')
@@ -45,15 +45,19 @@ if present:
         destination = backup / f'{index}-{item.name}'
         shutil.move(str(item), str(destination))
         print(f'Archived {item} to {destination}')
+skill_dirs = [args.home / '.agents' / 'skills']
+if (args.home / '.claude').is_dir():
+    skill_dirs.append(args.home / '.claude' / 'skills')
 for source in sources:
-    target = args.home / '.agents' / 'skills' / source.name
-    target.parent.mkdir(parents=True, exist_ok=True)
-    if not target.is_symlink():
-        target.symlink_to(source, target_is_directory=True)
-    assert (target / 'SKILL.md').resolve() == (source / 'SKILL.md').resolve()
-    print(f'Installed {target} -> {source}')
+    for skill_dir in skill_dirs:
+        target = skill_dir / source.name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.is_symlink():
+            target.symlink_to(source, target_is_directory=True)
+        assert (target / 'SKILL.md').resolve() == (source / 'SKILL.md').resolve()
+        print(f'Installed {target} -> {source}')
 if updated_instructions != existing_instructions:
     instructions.parent.mkdir(parents=True, exist_ok=True)
     instructions.write_text(updated_instructions)
 print(f'Installed global video authenticity preferences in {instructions}; other instructions preserved.')
-print('Start a new Codex chat and invoke the appropriate podcast or main-YouTube skill to verify discovery.')
+print('Start a new chat in Codex or Claude and invoke the appropriate podcast or main-YouTube skill to verify discovery.')

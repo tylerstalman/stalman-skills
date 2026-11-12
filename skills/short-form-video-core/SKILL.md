@@ -39,6 +39,6 @@ Cache a source transcript and word timings once against a stable source/revision
 
 Validate job/clip/insert channel IDs agree, source ranges are within the actual media, end frames exceed start frames, and inserted output ranges follow the assembled timeline. A schema alone cannot prove those relationships. Brand status `reference-needed` permits analysis/rough assembly, not a newly styled final delivery.
 
-Use scripts and reusable templates for repeated mechanical work, then inspect rendered results. No fixed token-saving claim: measure intervention and failure rates on a representative clip. Claude supplies occasional big-picture direction and strategic reviews; Codex executes routine edits, sourcing, animation, troubleshooting and QA without consulting Claude on every decision.
+Use scripts and reusable templates for repeated mechanical work, then inspect rendered results. No fixed token-saving claim: measure intervention and failure rates on a representative clip.
 
 Keep private transcripts, source paths, media, account IDs and episode schedules in local job storage. The shared Git repository contains reusable instructions, schemas and approved non-sensitive templates. Pin each job to the skill commit and channel-profile version; applying an update must not silently restyle an in-progress or approved clip. Publishing remains a separate authorized workflow.
